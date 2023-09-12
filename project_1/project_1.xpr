@@ -3,10 +3,10 @@
 <!--                                                         -->
 <!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="49" Path="C:/Users/josephmorrison1/Downloads/project_1/project_1.xpr">
+<Project Version="7" Minor="49" Path="C:/Users/josephmorrison1/Desktop/project_1/project_1.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="d91b38d3dffd4527ae7ce0fcf82d154a"/>
+    <Option Name="Id" Val="0731f33d870e4deba28cd6a9447c9acc"/>
     <Option Name="Part" Val="xc7a35tcpg236-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -67,7 +67,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/new/DFF.vhd">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../ECE3610_lab1/ECE3610_lab1.srcs/sources_1/new/DFF.vhd"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ECE3610-main/ECE3610_lab1/ECE3610_lab1.srcs/sources_1/new/DFF.vhd"/>
           <Attr Name="ImportTime" Val="1693951287"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -75,7 +75,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/Shift_Register.vhd">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../ECE3610_lab1/ECE3610_lab1.srcs/sources_1/new/Shift_Register.vhd"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ECE3610-main/ECE3610_lab1/ECE3610_lab1.srcs/sources_1/new/Shift_Register.vhd"/>
           <Attr Name="ImportTime" Val="1693953359"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -84,8 +84,26 @@
       <File Path="$PSRCDIR/sources_1/new/Counter.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../ECE3610_lab1/ECE3610_lab1.srcs/sources_1/new/Counter.vhd"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ECE3610-main/ECE3610_lab1/ECE3610_lab1.srcs/sources_1/new/Counter.vhd"/>
           <Attr Name="ImportTime" Val="1693947461"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Controller.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ECE3610-main/ECE3610-main/project_1/project_1.srcs/sources_1/new/Controller.vhd"/>
+          <Attr Name="ImportTime" Val="1694556662"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/receiver.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/ECE3610-main/ECE3610-main/project_1/project_1.srcs/sources_1/new/receiver.vhd"/>
+          <Attr Name="ImportTime" Val="1694557122"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>

@@ -32,12 +32,12 @@ use IEEE.NUMERIC_STD.ALL;
 --use UNISIM.VComponents.all;
 
 entity Counter is
-  Port (ld_val_cntr : in unsigned(9 downto 0);
-        en_cntr : in std_logic;
-        ld_cntr : in std_logic;
+  Port (ld_val_cntr : in unsigned(9 downto 0);  -- the 
+        en_cntr : in std_logic;                 -- start counting when high
+        ld_cntr : in std_logic;                 -- when high, load new value in to count up to
         clk_cntr : in std_logic;
         rst_cntr : in std_logic;
-        clk_o_cntr : out std_logic);
+        clk_o_cntr : out std_logic);            -- '1' indicates completed counting
 end Counter;
 
 architecture Behavioral of Counter is
